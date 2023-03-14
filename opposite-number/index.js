@@ -3,7 +3,7 @@
 // DESCRIPTION:
 // Very simple, given an integer or a floating-point number, find its opposite.
 
-const opposite = (number) => {
+const ft_opposite = (number) => {
   if (number > 0) {
     return "-" + number;
   } else {
@@ -12,4 +12,4 @@ const opposite = (number) => {
   }
 };
 
-console.log(opposite(-1));
+console.log(ft_opposite(-1));
